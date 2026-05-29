@@ -12,7 +12,7 @@ const App = () => {
     <input type="text" name="name" id="name" value={input} onChange={(e)=>{setInput(e.target.value)}}/>
     
     {
-      input.length==0 ? (<h3></h3>):(<h3>Hello {input}</h3>)
+      input.length==0 ? (<h3></h3>):(<h3>Hello {input}!</h3>)
     }
     </div>
   )
